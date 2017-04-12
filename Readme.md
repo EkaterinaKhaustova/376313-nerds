@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Екатерина Хаустова](https://up.htmlacademy.ru/htmlcss/17/user/376313).
-* Наставник: [Катерина Шелег] (https://up.htmlacademy.ru/htmlcss/17/user/43436) .
+* Наставник: [Катерина Шелег] (https://htmlacademy.ru/profile/katesheleh ) .
 
 ---
 
