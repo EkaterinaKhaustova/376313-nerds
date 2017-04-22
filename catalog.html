@@ -6,51 +6,98 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<nav class="main-navigation">
+			<div class="main-logo">
+				<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="NЁRDS DESIGN STUDIO"></a>
+			</div> 
+			<nav class="main-menu">
 				<ul>
-					<li class="logo"><img src="http://placehold.it/150x100" width="150" height="100" alt="Логотип"></li>
-					<li class="navigation"><a href="#">Студия</a></li>
-					<li class="navigation"><a href="#">Клиенты</a></li>
-					<li class="navigation"><a href="#">Магазин</a></li>
-					<li class="navigation"><a href="#">Контакты</a></li>
+					<li class="main-menu-item"><a href="#">Студия</a></li>
+					<li class="main-menu-item"><a href="#">Клиенты</a></li>
+					<li class="main-menu-item"><a href="#">Магазин</a></li>
+					<li class="main-menu-item"><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="basket">
 				<a class="basket-user" href="#">Корзина</a>
 			</div>
-			<div class="caption">
+			<div class="title">
 				<h2>Магазин готовых товаров</h2>
 			</div>
 		</header>
 		<main class="container">
-			<div class="sort-section">
-				<p class="left">Стоимость:</p>
-				<p class="center">Сортировать:</p>
-				<a href="#">
-					<span class="sort">По цене</span>
-				</a>
-				<a href="#">
-					<span class="sort">По типу</span>
-				</a>
-				<a href="#">
-					<span class="sort">По названию</span>
-				</a>
+			<div class="filter-left">
+				<form action="#" method="get">
+					<label class="filter-left-item">
+						Стоимость<br>					
+							<input type="range" name="legend"><br>
+						от <input type="number" name="number" value="0"> до <input type="number" name="number" value="15000"><br>
+					</label>
+					<label class="filter-left-item">
+						Сетка:<br>
+							<input type="radio" name="legend" checked>
+						Адаптивная<br>
+							<input type="radio" name="legend">
+						Фиксированная<br>
+							<input type="radio" name="legend">
+						Резиновая<br>
+					</label>
+					<label class="filter-left-item">
+						Особенности:<br>
+							<input type="checkbox" name="legend" checked>
+						Слайдер<br>
+							<input type="checkbox" name="legend">
+						Блок преимуществ<br>
+							<input type="checkbox" name="legend" checked>
+						Новости<br>
+							<input type="checkbox" name="legend">
+						Галерея<br>
+							<input type="checkbox" name="legend">
+						Корзина<br>
+					</label>
+					<input type="submit" name="button" value="Показать">
+				</form>
 			</div>
+			<div class="filter-top">
+				Сортировать:
+					<ul>
+						<li class="filter-top-item"><a href="#">По цене</a></li>
+						<li class="filter-top-item"><a href="#">По типу</a></li>
+						<li class="filter-top-item"><a href="#">По названию</a></li>
+						<li class="filter-top-item"><a href="#">По возврастанию</a></li>
+						<li class="filter-top-item"><a href="#">По убыванию</a></li>
+					</ul>
+			</div>			
 			<div class="projects">
 				<ul>
-					<li class="projects-center"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Sedona"></a></li>
-					<li class="projects-center"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Borodinski"></a></li>
-					<li class="projects-center"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="A+"></a></li>
-					<li class="projects-right"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Pink"></a></li>
-					<li class="projects-right"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="M&HKA"></a></li>
-					<li class="projects-right"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Кваст"></a></li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Sedona"></a></li>
+					<li class="projects-item">
+						<div class="action-block"> 
+							<h3 class="title">Sedona</h3>
+							<p>Информационный сайт<br> 
+							для туристов</p>
+							<a href="#">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Borodinski"></a></li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="A+"></a></li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Pink"></a></li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="M&HKA"></a></li>
+					<li class="projects-item"><a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Кваст"></a></li>
 				</ul>
 			</div>
+			<div class="page">
+				<ul>
+					<li class="page-item"><a>1</a></li>
+					<li class="page-item"><a href="#">2</a></li>
+					<li class="page-item"><a href="#">3</a></li>
+					<li class="page-item"><a href="#">Следующая</a></li>
+				</ul>
+			</div>			
 		</main>
 		<footer class="main-footer">
 			<div class="footer-top">
 				<div class="map">
-				
+					<img src="http://placehold.it/150x100" width="150" height="100" alt="Карта">
 				</div>
 					<section class="footer-contacts">
 						<h3 class="footer-name">Nёrdc design studio</h3>
@@ -62,7 +109,7 @@
 			</div>
 			<div class="footer-bottom">
 				<section class="footer-csocial">
-					<h3>Давайте дружить, это выгодно!</h3>
+					<p>Давайте дружить, это выгодно!</p>
 					<p>Скидка 10% для друзей из социальных сетей</p>
 				</section>
 			</div>
